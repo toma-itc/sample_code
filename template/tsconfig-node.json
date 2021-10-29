@@ -1,0 +1,36 @@
+{
+	"extends": "./tsconfig.paths.json",
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedParameters": false,
+		"noImplicitReturns": true,
+		"esModuleInterop": true,
+		"noUnusedLocals": false,
+		"noImplicitAny": true,
+		"declarationDir": "dist-node/types",
+		"declaration": true,
+		"target": "es6",
+		"module": "commonjs",
+		"strict": true,
+		"allowJs": true,
+		"checkJs": false,
+		"outDir": "dist-node",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"jsx": "react",
+		"sourceMap": true,
+	},
+	"files": [
+		"./node_modules/@kintone/dts-gen/kintone.d.ts"
+	],
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"dist",
+		"dist-web",
+		"dist-node",
+		"node_modules"
+	]
+}

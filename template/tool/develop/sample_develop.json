@@ -1,0 +1,15 @@
+{
+    "app": "0",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "./dist-web/sample/sample-kintone.js"
+        ],
+        "css": [
+        ]
+    },
+    "mobile": {
+        "js": [
+        ]
+    }
+}
