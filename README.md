@@ -13,4 +13,5 @@
 # Disclaimer(免責事項)
 
 Please note that we are not responsible for any problems caused by using the programs in this repository.
+
 本リポジトリのプログラムの利用により問題等が発生しても弊社は責任を負いませんのでご注意ください。
