@@ -20,7 +20,7 @@ git clone https://github.com/toma-itc/sample_code.git
 
 cd sample_code/sample-rust-wasm
 
-npm i --legacy-peer-deps
+npm i
 
 
 # 起動方法
